@@ -1,5 +1,5 @@
 <script>
-  import { titleApp } from '../stores/title';
+  import { titleApp } from '../../stores/title';
 
   let title;
   const unsubscribe = titleApp.subscribe(value => {
