@@ -1,0 +1,1 @@
+export default (path) => fetch(`https://swapi.co/api/${path}`);
