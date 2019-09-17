@@ -9,7 +9,7 @@ deploy:
   provider: heroku
   api_key:
     secure: hc8dYDyH6+qKHYD3qsG6GDa93Dn0dNxwGcVLBw0y9b7XMsR4/mlZm02jt3dq7824tmtU3eILv0fY57phgbcSu8OkOKkNnZlGCui1x0wunzAhQM4cwrTYxj7nmF6HAxAahPasXVm4p3s/uUefbXdsGCfJZ/TsM+xBt+3awUBj5x455zt385nidAsHnOfhK45QYuB+yAXDZxlKI4U64MgH1rY7dQLtBd6QnrsrXC+UTugJHiXfYh+hzZEY2F/ypbSgQFBm+JlA2zv08RC05cGhDFbhoTzjsxs/OtYJEw2jc9vU+oEuVfBwPHL08p06rFWcddT3UfcpvlniBMz/zBfVH7OTTL5Pv027UQVqWmwQnZRx0PE9ZrAZM3dxImuSPUebU1TBv9LdTOUpWeBitGhtpCFuM82RGQarM0ZffDxRAO0Z7S0QzxoNQhcv7MgRP3Hh98lUr958CSkyyg3z/apV4ZNMjjvkol1kncoyldDtbjiL78lRO+OwXBxZW3MR8dpea/+QpNLUG8YAG9D5a++NmNvrPoMULH3dLoIgHvNk/mzY/nZTGqxb1oNVBwHi1EYUs4xy9FSLA8BMsrSD/Wog1WgdpMtZQirM028etzGGhX76khAsZgaKeughiXAyFXq3wuOSimVK/gfT4G+tA+MMQgLgynZhnerSqzu4L08KNa8=
-  app: swapi-challenge
+  app: bruno-santana
   on:
     tags: true
     repo: brunosantanarj/swapi-challenge
