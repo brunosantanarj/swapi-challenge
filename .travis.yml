@@ -13,3 +13,5 @@ deploy:
   on:
     tags: true
     repo: brunosantanarj/swapi-challenge
+    on: master
+    skip_cleanup: true
