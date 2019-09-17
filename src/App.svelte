@@ -1,11 +1,15 @@
 <script>
+	import Title from './components/Title.svelte';
 	export let name;
 </script>
 
 <style>
-	h1 {
-		color: purple;
+	.wrapper {
+		position: relative;
+		z-index: 2;
 	}
 </style>
 
-<h1>Hello {name}!</h1>
+<div class="wrapper">
+	<Title />
+</div>
