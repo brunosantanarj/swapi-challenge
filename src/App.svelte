@@ -1,5 +1,5 @@
 <script>
-	import Title from './components/Title.svelte';
+	import Title from './components/Title/Index.svelte';
 	export let name;
 </script>
 
