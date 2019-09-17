@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 'node'
+  - "node"
 
 script:
   - "npm run build"
@@ -8,8 +8,8 @@ script:
 deploy:
   provider: surge
   project: ./public/
-  domain: example.surge.sh
-    skip_cleanup: true
+  domain: brunosantana.surge.sh
+  skip_cleanup: true
   on:
     branch: master
 
