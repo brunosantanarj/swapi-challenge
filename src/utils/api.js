@@ -1,6 +1,8 @@
 const NOT_FOUND = 'not-found';
 
-export default (path) => fetch(`https://swapi.co/api/${path}`);
+export default path => fetch(`https://swapi.co/api/${path}`);
+
+export const fetchNewsPeople = next => fetch(next);
 
 export async function fetchImages(term) {
   const response = await fetch(`https://ai-images-santana.herokuapp.com/images?term=${term}`);
