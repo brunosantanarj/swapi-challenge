@@ -1,5 +1,6 @@
 <script>
 	import Title from './components/Title/Index.svelte';
+	import Peoples from './components/Peoples/Index.svelte';
 	export let name;
 </script>
 
@@ -12,4 +13,5 @@
 
 <div class="wrapper">
 	<Title />
+	<Peoples />
 </div>
