@@ -15,7 +15,6 @@
 
   function onFinal([ entry ]) {
    if(entry.isIntersecting){
-     console.log(nextPage);
       fecthMore()
     }
   }
