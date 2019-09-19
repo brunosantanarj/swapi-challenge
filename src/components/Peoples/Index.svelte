@@ -15,7 +15,7 @@
 
   function onFinal([ entry ]) {
    if(entry.isIntersecting){
-      fecthMore()
+      fecthMore();
     }
   }
 
@@ -23,9 +23,11 @@
     loading = true;
     const response = await fetchNewsPeople(nextPage);
     const { results, next } = await response.json();
-    people.update(p => [...p, ...results]);
-    nextPage = next;
     loading = false;
+    if (next !== nextPage) {
+      people.update(p => [...p, ...results]);
+      nextPage = next;
+    }
   }
 
   onMount(async () => {
@@ -41,6 +43,12 @@
   });
 </script>
 
+<style>
+  .final {
+    padding: 20px;
+  }
+</style>
+
 <Subtitle title='PEOPLE' />
 
 <div class="peoples">
@@ -53,7 +61,7 @@
 {#if loading}
   <Loading />
 {/if}
-<div bind:this={final}></div>
+<div bind:this={final} class="final"></div>
 
 
 
